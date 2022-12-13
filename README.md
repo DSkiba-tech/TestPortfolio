@@ -12,6 +12,12 @@ Used tools: Lightshot, TestLink, Git/Github,
 
 2. Every test suite contains test cases
 
-3. Every test case name contains prefix and ordinal number, e.g. STP-1, STP-5
+3. Abbreviations:
 
-4. Every test case directory contains screenshot from TestLink, which is named with 'TL' at the end, e.g. STP-1-TL, STP-5-TL and optionally attachments, named with 'ATT' at the end, e.g. STP-1-ATT, STP-5-ATT
+a. STP - Steam Test Plan
+
+b. ATT - Attachment (optionally ATT-1 - Attachment no. 1)
+
+4. Every test case name contains prefix and ordinal number, e.g. STP-1, STP-5
+
+5. Every test case directory contains screenshot from TestLink, which is named with 'TL' at the end, e.g. STP-1-TL, STP-5-TL and optionally attachments, named with 'ATT' at the end, e.g. STP-1-ATT, STP-5-ATT
