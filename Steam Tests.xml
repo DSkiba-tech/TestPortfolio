@@ -371,7 +371,7 @@
 ]]></details> 
 
 <testcase internalid="89" name="My Active Listings displays proper data">
-	<node_order><![CDATA[0]]></node_order>
+	<node_order><![CDATA[1]]></node_order>
 	<externalid><![CDATA[12]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[]]></summary>
@@ -418,7 +418,7 @@
 </testcase>
 
 <testcase internalid="95" name="My Market History displays proper data">
-	<node_order><![CDATA[1]]></node_order>
+	<node_order><![CDATA[2]]></node_order>
 	<externalid><![CDATA[13]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[]]></summary>
@@ -472,7 +472,7 @@
 </testcase>
 
 <testcase internalid="101" name="Sell an item option displays proper info">
-	<node_order><![CDATA[2]]></node_order>
+	<node_order><![CDATA[3]]></node_order>
 	<externalid><![CDATA[14]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[]]></summary>
@@ -519,6 +519,67 @@
 	<expectedresults><![CDATA[<p>Announcement displays with info: &quot;You need to sign in or create an account to do that.&#39;</p>
 
 <p>Three buttons are visible: &#39;Sign In&#39; , &#39;Create an Account&#39; , &#39;Cancel&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="175" name="Community Market banner is displayed">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[25]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is NOT logged in</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open https://store.steampowered.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&#39;Home&#39; page opens properly</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+
+<p>Community Market banner is displayed under header with:</p>
+
+<p>1. &#39;Community Market&#39; writing</p>
+
+<p>2. &#39;Buy and sell items with community members for Steam Wallet funds.&#39; writing</p>
+
+<p>3. Background is green</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -757,6 +818,483 @@
 <p>5. Price</p>
 
 <p>6. &#39;Cancel&#39; button</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="128" name="Market history lists sold/bought items">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is already logged in</p>
+
+<p>User sold/bought some items before</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Open&nbsp;https://store.steampowered.com/</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Section with market history is displayed with every items details:</p>
+
+<p>1. Char column (empty is possible if item was just created/canceled)</p>
+
+<p>2. Item photo</p>
+
+<p>3. Item name</p>
+
+<p>4. Game name</p>
+
+<p>5. Listed date</p>
+
+<p>6. Acted date</p>
+
+<p>7. With field</p>
+
+<p>8. Price</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="180" name="Community Market banner is displayed with user logged in">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is already logged in</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open https://store.steampowered.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&#39;Home&#39; page opens properly</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+
+<p>Community Market banner is displayed under header with:</p>
+
+<p>1. &#39;Community Market&#39; writing</p>
+
+<p>2. &#39;Buy and sell items with community members for Steam Wallet funds.&#39; writing</p>
+
+<p>3. Background is green</p>
+
+<p>4. User avatar</p>
+
+<p>5. Wallet balance</p>
+
+<p>6. &#39;View Inventory&#39; button</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="167" name="My Market History details" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[<p>This test suite verifies proper behavior of listed items infos</p>
+]]></details> 
+
+<testcase internalid="168" name="Created sell offer is displayed in market history">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[24]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is already logged in</p>
+
+<p>User already created sell offer</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Open&nbsp;https://store.steampowered.com/</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Market history items history is listed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Search for sold item</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Properly listed sold item contains:</p>
+
+<p>1. Char field is empty</p>
+
+<p>2. Item acted date is empty</p>
+
+<p>3. With column: &#39;Listing created&#39;</p>
+
+<p>4. Price</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="135" name="Sold item is displayed in market history">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is already logged in</p>
+
+<p>User already sold any item</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Open&nbsp;https://store.steampowered.com/</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Market history items history is listed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Search for sold item</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Properly listed sold item contains:</p>
+
+<p>1. &#39; - &#39; char</p>
+
+<p>2. Item acted date</p>
+
+<p>3. Buyer nickname and avatar</p>
+
+<p>4. Price</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="142" name="Bought item is displayed in market history">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is already logged in</p>
+
+<p>User already bought any item</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Open&nbsp;https://store.steampowered.com/</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Market history items history is listed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Search for bought item</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Properly listed bought&nbsp;item contains:</p>
+
+<p>1. &#39; +&nbsp;&#39; char</p>
+
+<p>2. Item acted date</p>
+
+<p>3. Seller nickname and avatar</p>
+
+<p>4. Price</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="156" name="Canceled sell offer is displayed in market history">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[23]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is already logged in</p>
+
+<p>User already canceled any sell offer</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Open&nbsp;https://store.steampowered.com/</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Market history items history is listed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Search for sold item</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Properly listed sold item contains:</p>
+
+<p>1. Char field is empty</p>
+
+<p>2. Item acted date</p>
+
+<p>3. With column: &#39;Listing canceled&#39;</p>
+
+<p>4. Price field is empty</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
