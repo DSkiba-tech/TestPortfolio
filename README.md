@@ -14,9 +14,11 @@ Used tools: Lightshot, TestLink, Git/Github,
 
 3. Abbreviations:
 
-a. STP - Steam Test Plan
+	a. STP - Steam Test Plan
 
-b. ATT - Attachment (optionally ATT-1 - Attachment no. 1)
+	b. ATT - Attachment (optionally ATT-1 - Attachment no. 1)
+	
+	c. TL - TestLink (screenshot)
 
 4. Every test case name contains prefix and ordinal number, e.g. STP-1, STP-5
 
