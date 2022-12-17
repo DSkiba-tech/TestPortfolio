@@ -6,6 +6,8 @@ I will be testing Steam website, which is https://store.steampowered.com/
 
 Used tools: Lightshot, TestLink, Git/Github, Google spreadsheets, Google Drive
 
+Issues https://docs.google.com/spreadsheets/d/1QRbyMD4RzdSLVCQtBAm2jPOyNaPxD8QnQVwweiVRhDA/edit?usp=sharing
+
 # Info
 
 1. Test suites are placed in 'Tests' directory
@@ -26,7 +28,7 @@ Used tools: Lightshot, TestLink, Git/Github, Google spreadsheets, Google Drive
 
 5. Every test case directory contains screenshot from TestLink, which is named with 'TL' at the end, e.g. STP-1-TL, STP-5-TL and optionally attachments, named with 'ATT' at the end, e.g. STP-1-ATT, STP-5-ATT
 
-6. Issues are stored on google spreadsheets, accessible (as viewer) there https://docs.google.com/spreadsheets/d/1QRbyMD4RzdSLVCQtBAm2jPOyNaPxD8QnQVwweiVRhDA/edit?usp=sharing
+6. Issues are stored on google spreadsheets, accessible as viewer
 
 7. Every issue contain mandatory details: id, title, type, frequency, priority, environment, actions, expected and actual result, attachments.
 
