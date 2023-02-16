@@ -2156,4 +2156,421 @@
 <platforms/>
 
 </testcase>
-</testsuite></testsuite></testsuite>
+</testsuite></testsuite><testsuite id="263" name="Login" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[<p>This test suite describes tests used to check log in functionality</p>
+]]></details> 
+
+<testcase internalid="264" name="Login with credentials and code">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[37]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User has already installed, configured and set the steam mobile app.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login site opens properly</p>
+
+<p>All login fields are displayed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Insert correct credentials</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Sign in&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Mobile authentication box is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Enter a code instead&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Field with space to provide code is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Insert correct code</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User is logged in</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="271" name="Login with credentials and approve button">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[38]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User has already installed, configured and set the steam mobile app.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login site opens&nbsp;properly</p>
+
+<p>All login fields are displayed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Insert correct credentials</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Sign in&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Mobile authentication box is displayed</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Accept login request in steam mobile app via &#39;Approve&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User is logged in</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="278" name="Login via QR code">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[39]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User has already installed, configured and set the steam mobile app.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login site opens properly</p>
+
+<p>All login fields are displayed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Scan displayed QR Code with steam mobile app</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Loading&#39; animation is displayed on QR code</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Accept login request by clicking &#39;Sign in to Steam&#39; button on steam mobile app</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User is logged in</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="283" name="Login with wrong credentials">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[40]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login site opens properly</p>
+
+<p>All login fields are displayed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Insert wrong credentials</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Announcement about wrong credentials provided is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="287" name="Invalid code provided">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[41]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User has already installed, configured and set the steam mobile app.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login site opens properly</p>
+
+<p>All login fields are displayed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Insert correct credentials</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Sign in&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Mobile authentication box is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Enter a code instead&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Field with space to provide code is displayed</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Insert incorrect code</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Announcement about incorrect code is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="294" name="Deny login request">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[42]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User has already installed, configured and set the steam mobile app.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login site opens properly</p>
+
+<p>All login fields are displayed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Insert correct credentials</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Sign in&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Mobile authentication box is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Deny login request by clicking &#39;Deny&#39; on mobile steam app</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Announcement about login request expiration is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="300" name="Cancel login by QR code">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[43]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User has already installed, configured and set the steam mobile app.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login site opens properly</p>
+
+<p>All login fields are displayed properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Scan displayed QR Code with steam mobile app</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Loading&#39; animation is displayed on QR code</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Cancel login request by clicking &#39;Cancel&#39; on steam mobile app</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User has not been logged in</p>
+
+<p>&#39;Loading&#39; animation stopped</p>
+
+<p>Retry button is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite></testsuite>
