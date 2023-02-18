@@ -8,15 +8,21 @@ Used tools: Lightshot, TestLink, Git/Github, Google spreadsheets, Google Drive
 
 Issues https://docs.google.com/spreadsheets/d/1QRbyMD4RzdSLVCQtBAm2jPOyNaPxD8QnQVwweiVRhDA/edit?usp=sharing
 
+# Actually available
+
+- Steam market - 26 test cases
+- Proper pages open - 6 test cases
+- Login - 9 test cases
+
 # Info
 
 1. Test suites are placed in 'Tests' directory
 
 2. Every test suite contains test cases
 
-3. Abbreviations:
+3. Abbreviations explication:
 
-	a. STP - Steam Test Plan
+	a. STP - Steam Test Plan (abbreviation of every test case)
 
 	b. ATT - Attachment (optionally ATT-1 - Attachment no. 1)
 	
