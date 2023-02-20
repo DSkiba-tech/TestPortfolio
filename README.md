@@ -10,7 +10,7 @@ Issues https://docs.google.com/spreadsheets/d/1QRbyMD4RzdSLVCQtBAm2jPOyNaPxD8QnQ
 
 # Actually available
 
-- Steam market - 26 test cases
+- Steam market - 31 test cases
 - Proper pages open - 6 test cases
 - Login - 9 test cases
 
