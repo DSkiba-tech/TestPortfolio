@@ -2156,6 +2156,299 @@
 <platforms/>
 
 </testcase>
+
+<testcase internalid="317" name="See all option works properly">
+	<node_order><![CDATA[8]]></node_order>
+	<externalid><![CDATA[46]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&#39;Home&#39; page opens properly</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Navigate to &quot;Community&#39; in header menu</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+
+<p>&#39;See all&#39; button is visible under items list</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click &#39;See all&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Displayed are:</p>
+
+<p>- items list</p>
+
+<p>- results count</p>
+
+<p>- page changer</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="323" name="Show more games option expands list">
+	<node_order><![CDATA[9]]></node_order>
+	<externalid><![CDATA[47]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+
+<p>&#39;Show more&#39; button is displayed under games list</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Show more&#39; button under games list</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Games list expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="329" name="Sell and buy items" >
+<node_order><![CDATA[8]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="330" name="Buy item from community market">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[48]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is already logged in</p>
+
+<p>User have enough wallet balance&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Search for an item, for example type in search engine:&nbsp;</p>
+
+<p>&#39;Sticker | Spinx | Rio 2022&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Correct result is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select an item you are interested in</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User is redirected to selected item details page</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Buy&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Buy information box is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Insert correct data, check &#39;I agree to the terms [...]&#39; and click &#39;Place order&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Announcement about succeeded purchase is displayed</p>
+
+<p>Wallet balance is reduced of bought item price</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Viev item in inventory&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User is redirected to his inventory</p>
+
+<p>User is able to see bought item in his inventory</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="338" name="Selling an item through market">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[49]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>User is already logged in</p>
+
+<p>User have an item that is available to sell</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Sell an item&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User&#39;s inventory is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select item to sell and click &#39;Sell&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Put an item for sale&#39; box is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Set sell price, check agreement and click &#39;OK, put it up for sale&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Confirm sell offer by clicking &#39;OK&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Close inventory by clicking &#39;x&#39; in the right top</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User is able to see item on &#39;My sell listings&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
 </testsuite></testsuite><testsuite id="263" name="Login" >
 <node_order><![CDATA[3]]></node_order>
 <details><![CDATA[<p>This test suite describes tests used to check log in functionality</p>
