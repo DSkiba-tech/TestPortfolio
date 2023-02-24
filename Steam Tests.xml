@@ -2294,6 +2294,196 @@
 <platforms/>
 
 </testcase>
+
+<testcase internalid="346" name="Change page using left arrow button">
+	<node_order><![CDATA[10]]></node_order>
+	<externalid><![CDATA[50]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>List expands</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&#39;Market&#39; page opens properly</p>
+
+			<p>&#39;See all&#39; button is visible under items list</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click &#39;See all&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Displayed are:</p>
+
+<p>- items list</p>
+
+<p>- results count</p>
+
+<p>- page changer</p>
+
+<p>- first page&nbsp;chosen by default</p>
+
+<p>- disabled LEFT ARROW BUTTON&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Select any page, except &#39;1&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Left arrow button is enabled</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Click left arrow button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Page decrements by 1</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="354" name="Change page using right arrow button">
+	<node_order><![CDATA[11]]></node_order>
+	<externalid><![CDATA[51]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List expands</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Select &#39;Market&#39; option</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+
+<p>&#39;See all&#39; button is visible under items list</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click &#39;See all&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Displayed are:</p>
+
+<p>- items list</p>
+
+<p>- results count</p>
+
+<p>- page changer</p>
+
+<p>- first page&nbsp;chosen by default</p>
+
+<p>- disabled LEFT ARROW BUTTON&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click right arrow button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Page increments by 1</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Select last possible page&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Right arrow button is disabled</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
 </testsuite><testsuite id="329" name="Sell and buy items" >
 <node_order><![CDATA[8]]></node_order>
 <details><![CDATA[]]></details> 
