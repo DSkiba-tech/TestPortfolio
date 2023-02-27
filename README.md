@@ -8,7 +8,7 @@ Used tools: Lightshot, TestLink, Git/Github, Google spreadsheets, Google Drive, 
 
 Issues https://docs.google.com/spreadsheets/d/1QRbyMD4RzdSLVCQtBAm2jPOyNaPxD8QnQVwweiVRhDA/edit?usp=sharing
 
-#Features
+# FEATURE
 
 I started automating my tests since 27.02.2023
 
