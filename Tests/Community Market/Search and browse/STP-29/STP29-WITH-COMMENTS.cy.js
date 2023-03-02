@@ -1,4 +1,4 @@
-describe('STP-34: Remove multiple search filter', () => {
+describe('STP-29: Search and browse element is displayed properly', () => {
   it('passes', () => {	  
   
 // 1. Open home page  
