@@ -17,8 +17,8 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[3]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>2</status>
+	<estimated_exec_duration>5.00</estimated_exec_duration>
+	<status>7</status>
 	<is_open>1</is_open>
 	<active>1</active>
 <steps>
@@ -49,8 +49,8 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[3]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>2</status>
+	<estimated_exec_duration>5.00</estimated_exec_duration>
+	<status>7</status>
 	<is_open>1</is_open>
 	<active>1</active>
 <steps>
@@ -77,8 +77,8 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[3]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>2</status>
+	<estimated_exec_duration>5.00</estimated_exec_duration>
+	<status>7</status>
 	<is_open>1</is_open>
 	<active>1</active>
 <steps>
@@ -105,8 +105,8 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[3]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>2</status>
+	<estimated_exec_duration>5.00</estimated_exec_duration>
+	<status>7</status>
 	<is_open>1</is_open>
 	<active>1</active>
 <steps>
@@ -133,8 +133,8 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>2</status>
+	<estimated_exec_duration>5.00</estimated_exec_duration>
+	<status>7</status>
 	<is_open>1</is_open>
 	<active>1</active>
 <steps>
@@ -160,9 +160,9 @@
 	<summary><![CDATA[]]></summary>
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
-	<importance><![CDATA[2]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>2</status>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration>5.00</estimated_exec_duration>
+	<status>7</status>
 	<is_open>1</is_open>
 	<active>1</active>
 <steps>
