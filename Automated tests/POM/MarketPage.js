@@ -19,6 +19,13 @@ class MarketPage {
 	searchField: () => cy.get('input#findItemsSearchBox'),
 	searchFieldSubmit: () => cy.get('input#findItemsSearchSubmit'),
 	showAdvancedOptions: () => cy.get('div#market_search_advanced_show'),
+	showAdvancedOptionsSearchInput: () => cy.get('input#advancedSearchBox'),
+	showAdvancedOptionsSearchButton: () => cy.get('input#advancedSearchSubmit'),
+	showAdvancedOptionsIncludeDescription: () => cy.get('input#market_advanced_searchdescriptions_checkbox'),
+	showAdvancedOptionsReset: () => cy.get('a[href="javascript:ResetSearchFilters();"]'),
+	showAdvancedOptionsSearchButtonGreen: () => cy.get('div.btn_medium.btn_green_white_innerfade'),
+	showAdvancedOptionsList: () => cy.get('div#app_option_0_selected'),
+	showAdvancedOptionsListOptions: () => cy.get('div#market_advancedsearch_appselect_options_apps'),
 	browseByGame: () => cy.get('span.market_search_sidebar_section_tip_small').eq(1),
 	visibleGames: () => cy.get('a.game_button:visible'),
 	hiddenGames: () => cy.get('a.game_button:hidden'),
@@ -35,8 +42,13 @@ class MarketPage {
 	newModalLearnAbout: () => cy.get('div.btn_green_steamui.btn_medium:visible'),
 	newModalClose: () => cy.get('div.btn_grey_steamui.btn_medium:visible'),
 	newModalSteamGuard: () => cy.get('a[href="https://store.steampowered.com/mobile/"]'),
-	newModalReadAboutSecurity: () => cy.get('a[href="http://store.steampowered.com/news/20631/"]')
-	
+	newModalReadAboutSecurity: () => cy.get('a[href="http://store.steampowered.com/news/20631/"]'),
+	showingResultsStart: () => cy.get('span#searchResults_start'),
+	showingResultsEnd: () => cy.get('span#searchResults_end'),
+	showingResultsTotal: () => cy.get('span#searchResults_total'),
+	previousPageButton: () => cy.get('span#searchResults_btn_prev'),
+	nextPageButton: () => cy.get('span#searchResults_btn_next'),
+	pageList: () => cy.get('span.market_paging_pagelink'),
 	
 	}
 	
@@ -102,6 +114,46 @@ class MarketPage {
 	
 	clickNewModalReadAboutSecurity() {
 		this.elements.newModalReadAboutSecurity().click();
+	}
+	
+	typeSearchField(searchText) {
+		this.elements.searchField().type(searchText);
+	}
+	
+	clickSearchFieldSubmit() {
+		this.elements.searchFieldSubmit().click();
+	}
+	
+	clickShowAdvancedOptions() {
+		this.elements.showAdvancedOptions().click();
+	}
+	
+	typeShowAdvancedOptionsSearchInput(searchText) {
+		this.elements.showAdvancedOptionsSearchInput().type(searchText);
+	}
+	
+	clickShowAdvancedOptionsSearchButton() {
+		this.elements.showAdvancedOptionsSearchButton().click();
+	}
+	
+	checkShowAdvancedOptionsIncludeDescription(check) {
+		check ? this.elements.showAdvancedOptionsIncludeDescription().click() : undefined 
+	}
+	
+	clickShowAdvancedOptionsReset() {
+		this.elements.showAdvancedOptionsReset().click();
+	}
+	
+	clickShowAdvancedOptionsSearchButtonGreen() {
+		this.elements.showAdvancedOptionsSearchButtonGreen().click();
+	}
+	
+	expandShowAdvancedOptionsList() {
+		this.elements.showAdvancedOptionsList().click();
+	}
+	
+	getPageByNumber(num) {
+		this.elements.pageList().contains(num).click();
 	}
 	
 	
