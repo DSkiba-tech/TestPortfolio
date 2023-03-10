@@ -1,49 +1,53 @@
+import MarketPage from '../POM/MarketPage.js'
+
 describe('STP-29: Search and browse element is displayed properly', () => {
-  it('passes', () => {
-    cy.visit('https://steamcommunity.com/')
-	cy.get('a.menuitem.supernav')
-	.eq(3)
-	.trigger('mouseover')
+	  
+	beforeEach(()=>	{ cy.visit('https://steamcommunity.com/market/') })
+		
+		
+		it('passes', () => {
 	
-	cy.get('div.supernav_content')
-	.should('have.css','opacity','1')
-	
-	cy.get('div.submenu_community')
-	.eq(1)
-	.children()
-	.eq(3)
-	.click()
-	
-	cy.get('a')
-	.contains('Read about security requirements')
-	.should('exist') 
-	
-	cy.get('span.escrow_description_link')
-	.should('contain','for using the Community Market')
-	.and('be.visible')
-	
-	cy.get('span.market_search_sidebar_section_tip_small')
-	.eq(0)
-	.should('contain','Search for Items')
-	.and('be.visible')
-	
-	cy.get('input#findItemsSearchBox')
-	.should('have.attr','placeholder','Search')
-	.and('be.visible')
-	
-	cy.get('div.market_search_advanced_button')
-	.should('be.visible')
-	.and('contain','Show advanced options...')
-	
-	cy.get('span.market_search_sidebar_section_tip_small')
-	.eq(1)
-	.should('contain','Browse by Game')
-	
-	cy.get('a.game_button:visible')
-	.should('have.length',10)
-	
-	cy.get('a.btnv6_grey_black.ico_hover.btn_small_thin')
-	.should('be.visible')
-	.and('contain','Show more')
-  })
+			// 1. Button 'read about security requirements'
+			// 2. writing 'for using the Community Market'
+			// 3. writing 'Search for items'
+			// 4. Search browser
+			// 5. 'Show advanced options' button
+			// 6. writing 'Browse by Game'
+			// 7. 10 listed games
+			// 8. 'Show more' button
+			
+			MarketPage.elements.securityRequirementsButton()
+			.should('be.visible') // 1,2
+			
+			MarketPage.elements.searchForItemsText()
+			.should('contain','Search for Items')
+			.should('be.visible') // 3
+			
+			MarketPage.elements.searchField()
+			.should('have.attr','placeholder','Search')
+			.should('be.visible')	// 4
+			
+			MarketPage.elements.showAdvancedOptions()
+			.should('contain','Show advanced options')
+			.should('be.visible') // 5
+			
+			MarketPage.elements.browseByGame()
+			.should('contain','Browse by Game')
+			.should('be.visible') // 6
+			
+			MarketPage.elements.visibleGames()
+			.should('be.visible')
+			.should('have.attr','href') // 7
+			
+			MarketPage.elements.showMore()
+			.should('contain','Show more')
+			.should('be.visible')
+			.find('i')
+			.should('exist')
+			.should('have.class','ico16 arrow_down')
+			.should('be.visible') // 8
+			
+			
+			
+	})
 })
