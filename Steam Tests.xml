@@ -199,25 +199,7 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39;&nbsp;page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &#39;Community&#39; in the top bar</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands with home, discussions, workshop, market and broadcast options.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
 
@@ -255,33 +237,14 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39;&nbsp;page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &#39;Community&#39; in the top bar</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands with home, discussions, workshop, market and broadcast options.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click on &#39;Recently Sold&#39;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>List displays 10 results of newest items with details:</p>
@@ -318,33 +281,14 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39;&nbsp;page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &#39;Community&#39; in the top bar</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands with home, discussions, workshop, market and broadcast options.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click on &#39;Newly Listed&#39;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>List displays 10 results of newest items with details:</p>
@@ -386,63 +330,13 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Home&#39;&nbsp;page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
+	<expectedresults><![CDATA[<p>Displayed are:</p>
 
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &#39;Community&#39; in the top bar</p>
-]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>List expands</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
+<p>1. &#39;login&#39; button</p>
 
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>Displayed are:</p>
-
-<p>1. Steam logo</p>
-
-<p>2. Menu options:</p>
-
-<p>&#39;Store&#39;,</p>
-
-<p>&#39;Community&#39;,</p>
-
-<p>&#39;About&#39;,</p>
-
-<p>&#39;Support&#39;</p>
-
-<p>3. &#39;Install Steam&#39; button</p>
-
-<p>4. &#39;login&#39; button</p>
-
-<p>5. &#39;language&#39; button</p>
+<p>2. &#39;language&#39; button (list)</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -467,29 +361,9 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>&quot;My Active Listings&#39; section displays text: &#39;Login to see, edit, or remove your Community Market listings</p>
+	<expectedresults><![CDATA[<p>&#39;My Active Listings&#39;&nbsp;section displays text: &#39;Login to see, edit, or remove your Community Market listings.&#39;</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -514,36 +388,17 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click on &#39;My Market History&#39;&nbsp;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&quot;My Market History&#39; section displays text: &#39;Login to view your Community Market history&#39;</p>
+	<expectedresults><![CDATA[<p>&#39;My Market History&#39; section displays text: &#39;Login to view your Community Market history.&#39;</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -568,36 +423,17 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click on &#39;Sell an item&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Announcement displays with info: &quot;You need to sign in or create an account to do that.&#39;</p>
+	<expectedresults><![CDATA[<p>Announcement displays&nbsp;info: &#39;You need to sign in or create an account to do that.&#39;</p>
 
 <p>Three buttons are visible: &#39;Sign In&#39; , &#39;Create an Account&#39; , &#39;Cancel&#39;</p>
 ]]></expectedresults>
@@ -624,43 +460,21 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Home&#39; page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>Community Market banner is displayed under header with:</p>
+	<expectedresults><![CDATA[<p>Community Market banner is displayed under header with:</p>
 
 <p>1. &#39;Community Market&#39; writing</p>
 
 <p>2. &#39;Buy and sell items with community members for Steam Wallet funds.&#39; writing</p>
-
-<p>3. Background is green</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -691,31 +505,9 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/&nbsp;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>&#39;My Active Listings&#39; section displays another section &#39;My sell listings&#39;</p>
-
-<p>&#39;My sell listings&#39; section contains text &#39;You are not selling any items on the Community Market. Sell items from your inventory or click the &#39;Sell an item&#39; button above.&#39;</p>
+	<expectedresults><![CDATA[<p>&#39;My sell listings&#39; section contains text &#39;You are not selling any items on the Community Market. Sell items from your inventory or click the &quot;Sell an item&quot;&nbsp;button above.&#39;</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -744,31 +536,9 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>&#39;My Active Listings&#39; section displays another section &#39;My buy orders&#39;</p>
-
-<p>&#39;My buy orders&#39; section displays text &#39;You do not have any buy orders.&#39;</p>
+	<expectedresults><![CDATA[<p>&#39;My buy orders&#39; section displays text &quot;You do not have any buy orders.&quot;</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -797,31 +567,9 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>&#39;My Active Listings&#39; section displays another section &#39;My sell listings&#39;</p>
-
-<p>&#39;My buy orders&#39; section displays items put on sale with details:</p>
+	<expectedresults><![CDATA[<p>&#39;My sell listings&#39; section displays items put on sale with details:</p>
 
 <p>1. Item photo</p>
 
@@ -862,31 +610,9 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>&#39;My Active Listings&#39; section displays another section &#39;My buy orders&#39;</p>
-
-<p>&#39;My buy orders&#39; section displays buy ordered items list with details:</p>
+	<expectedresults><![CDATA[<p>&#39;My buy orders&#39; section displays buy ordered items list with details:</p>
 
 <p>1. Item photo</p>
 
@@ -923,69 +649,17 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Home&#39;&nbsp;page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
+	<expectedresults><![CDATA[<p>Displayed are:</p>
 
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &#39;Community&#39; in the top bar</p>
-]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>List expands</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
+<p>1. Envelope icon</p>
 
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
+<p>2. Nickname</p>
 
-<p>Displayed are:</p>
+<p>3. Avatar</p>
 
-<p>1. Steam logo</p>
-
-<p>2. Menu options:</p>
-
-<p>&#39;Store&#39;,</p>
-
-<p>&#39;Community&#39;,</p>
-
-<p>Username,</p>
-
-<p>&#39;Chat&#39;,</p>
-
-<p>&#39;Support&#39;</p>
-
-<p>3. &#39;Install Steam&#39; button</p>
-
-<p>4. Envelope icon</p>
-
-<p>5. Nickname</p>
-
-<p>6. Avatar</p>
-
-<p>7. Account balance</p>
+<p>4. Account balance</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1012,48 +686,21 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>Open&nbsp;https://store.steampowered.com/</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Section with market history is displayed with every items details:</p>
 
-<p>1. Char column (empty is possible if item was just created/canceled)</p>
+<p>1. Char column (empty is possible if item offer was just created/canceled)</p>
 
-<p>2. Item photo</p>
+<p>2. Item picture</p>
 
 <p>3. Item name</p>
 
@@ -1063,7 +710,7 @@
 
 <p>6. Acted date</p>
 
-<p>7. With field</p>
+<p>7. With column</p>
 
 <p>8. Price</p>
 
@@ -1092,49 +739,19 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Home&#39; page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>Community Market banner is displayed under header with:</p>
+	<expectedresults><![CDATA[<p>Community Market banner is displayed under header with:</p>
 
 <p>1. &#39;Community Market&#39; writing</p>
 
 <p>2. &#39;Buy and sell items with community members for Steam Wallet funds.&#39; writing</p>
 
-<p>3. Background is green</p>
+<p>3. User avatar</p>
 
-<p>4. User avatar</p>
+<p>4. Wallet balance</p>
 
-<p>5. Wallet balance</p>
-
-<p>6. &#39;View Inventory&#39; button</p>
+<p>5. &#39;View Inventory&#39; button</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1165,59 +782,31 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>Open&nbsp;https://store.steampowered.com/</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Market history items history is listed properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Search for sold item</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Properly listed sold item contains:</p>
 
-<p>1. Char field is empty</p>
+<p>1. Empty char field</p>
 
-<p>2. Item acted date is empty</p>
+<p>2. Empty item acted date</p>
 
-<p>3. With column: &#39;Listing created&#39;</p>
+<p>3. &#39;Listing created&#39; under &#39;With&#39; column</p>
 
 <p>4. Price</p>
 ]]></expectedresults>
@@ -1246,50 +835,22 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>Open&nbsp;https://store.steampowered.com/</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Market history items history is listed properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Search for sold item</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Properly listed sold item contains:</p>
@@ -1327,50 +888,22 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>Open&nbsp;https://store.steampowered.com/</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Market history items history is listed properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Search for bought item</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Properly listed bought&nbsp;item contains:</p>
@@ -1408,50 +941,22 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>Open&nbsp;https://store.steampowered.com/</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;My Market History&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Market history items history is listed properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Search for sold item</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Properly listed sold item contains:</p>
@@ -1489,59 +994,30 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+	<actions><![CDATA[<p>Click on list &#39;All Games&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Search community market window is displayed</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
-	<actions><![CDATA[<p>Click on list &#39;All Games&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>List expands</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Select any game</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Categories, lists and checkboxes are displayed</p>
@@ -1550,15 +1026,15 @@
 </step>
 
 <step>
-	<step_number><![CDATA[7]]></step_number>
-	<actions><![CDATA[<p>Select some filters (minimum 2)</p>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Select some filters</p>
 ]]></actions>
 	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
-	<step_number><![CDATA[8]]></step_number>
+	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Click &#39;Search&#39; button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Selected filters are displayed</p>
@@ -1569,7 +1045,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[9]]></step_number>
+	<step_number><![CDATA[7]]></step_number>
 	<actions><![CDATA[<p>Click &#39;Clear all&#39; option after last filter</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>All filters are removed</p>
@@ -1598,59 +1074,30 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+	<actions><![CDATA[<p>Click on list &#39;All Games&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Market&#39; page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Search community market window is displayed</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
-	<actions><![CDATA[<p>Click on list &#39;All Games&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Select any game</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Categories, lists and checkboxes are displayed</p>
@@ -1659,7 +1106,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[7]]></step_number>
+	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Select some filters</p>
 ]]></actions>
 	<expectedresults><![CDATA[]]></expectedresults>
@@ -1667,7 +1114,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[8]]></step_number>
+	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Click &#39;Search&#39; button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Selected filters are displayed</p>
@@ -1696,51 +1143,29 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
 	<expectedresults><![CDATA[<table>
 	<tbody>
 		<tr>
 			<td>
-			<p>List expands</p>
+			<p>Displayed are:</p>
+
+			<p>1. &#39;Read about security requirements (button) for using the Community Market&#39;</p>
+
+			<p>2. Search module:</p>
+
+			<p>&#39;Search for items&#39; with search browser&nbsp;</p>
+
+			<p>&#39;Show advanced options&#39; button</p>
+
+			<p>&#39;Browse by Game&#39; with 10 games listed</p>
+
+			<p>&#39;Show more&#39; button</p>
 			</td>
 		</tr>
 	</tbody>
 </table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>Displayed are:</p>
-
-<p>1. &#39;Read about security requirements (button) for using the Community Market&#39;</p>
-
-<p>2. Search module:</p>
-
-<p>&#39;Search for items&#39; with search browser&nbsp;</p>
-
-<p>&#39;Show advanced options&#39; button</p>
-
-<p>&#39;Browse by Game&#39; with 10 games listed</p>
-
-<p>&#39;Show more&#39; button</p>
-
-<p>&nbsp;</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1764,49 +1189,14 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Home&#39; page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>List expands</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Select any game under &#39;Browse by Game&#39;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Displayed is writing &#39;Showing results for: &lt;game name&gt;&#39;</p>
@@ -1820,7 +1210,7 @@
 
 </testcase>
 
-<testcase internalid="207" name="Remove single search filter">
+<testcase internalid="207" name="Remove game search filter">
 	<node_order><![CDATA[4]]></node_order>
 	<externalid><![CDATA[31]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -1835,33 +1225,14 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Select any game under &#39;Browse by Game&#39;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Displayed is writing &#39;Showing results for: &lt;game name&gt;&#39;</p>
@@ -1870,7 +1241,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[5]]></step_number>
+	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Click &#39;x&#39; button on displayed filter</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Listed items originate from various games</p>
@@ -1897,59 +1268,30 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+	<actions><![CDATA[<p>Click on list &#39;All Games&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Market&#39; page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Search community market window is displayed</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
-	<actions><![CDATA[<p>Click on list &#39;All Games&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Select any game</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Categories, lists and checkboxes are displayed</p>
@@ -1958,7 +1300,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[7]]></step_number>
+	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Click &#39;Search&#39; button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Displayed is writing &#39;Showing results for: &lt;game name&gt;&#39;</p>
@@ -1987,67 +1329,30 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Home&#39; page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
+	<actions><![CDATA[<p>Click on list &#39;All Games&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>Search community market window is displayed</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
-	<actions><![CDATA[<p>Click on list &#39;All Games&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Select any game</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Categories, lists and checkboxes are displayed</p>
@@ -2056,7 +1361,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[7]]></step_number>
+	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Select some filters</p>
 ]]></actions>
 	<expectedresults><![CDATA[]]></expectedresults>
@@ -2064,7 +1369,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[8]]></step_number>
+	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Click &#39;Reset to default&#39; button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Every filters are reseted to default</p>
@@ -2091,42 +1396,22 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
+	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &#39;Show advanced options...&#39;</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Search community market window is displayed</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Check the checkbox &#39;Include descriptions in search&#39;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Checkbox is checked</p>
@@ -2135,20 +1420,18 @@
 </step>
 
 <step>
-	<step_number><![CDATA[6]]></step_number>
-	<actions><![CDATA[<p>Provide some description in &#39;Search&#39; field</p>
-
-<p>Optionally: select any game</p>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Insert&nbsp;description in &#39;Search&#39; field</p>
 ]]></actions>
 	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
-	<step_number><![CDATA[7]]></step_number>
+	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Click &#39;Search&#39; button</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Listed items suits&nbsp;for selected&nbsp;filters</p>
+	<expectedresults><![CDATA[<p>Listed items include inserted description</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -2172,55 +1455,14 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Home&#39; page opens properly</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>Navigate to &quot;Community&#39; in header menu</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>&#39;See all&#39; button is visible under items list</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click &#39;See all&#39; button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Displayed are:</p>
@@ -2253,40 +1495,21 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-
-<p>&nbsp;</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>&#39;Show more&#39; button is displayed under games list</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click &#39;Show more&#39; button under games list</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Games list expands</p>
+
+<p>More games are displayed</p>
+
+<p>&nbsp;</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -2310,51 +1533,14 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>List expands</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Select &#39;Market&#39; option</p>
-]]></actions>
-	<expectedresults><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>&#39;Market&#39; page opens properly</p>
-
-			<p>&#39;See all&#39; button is visible under items list</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click &#39;See all&#39; button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Displayed are:</p>
@@ -2373,7 +1559,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[5]]></step_number>
+	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Select any page, except &#39;1&#39;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Left arrow button is enabled</p>
@@ -2382,7 +1568,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[6]]></step_number>
+	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click left arrow button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Page decrements by 1</p>
@@ -2409,43 +1595,14 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/</p>
+	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Home&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Navigate to &quot;Community&#39; in header menu</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>List expands</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<table>
-	<tbody>
-		<tr>
-			<td>
-			<p>Select &#39;Market&#39; option</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>&#39;See all&#39; button is visible under items list</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Click &#39;See all&#39; button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Displayed are:</p>
@@ -2464,7 +1621,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[5]]></step_number>
+	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Click right arrow button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Page increments by 1</p>
@@ -2473,7 +1630,7 @@
 </step>
 
 <step>
-	<step_number><![CDATA[6]]></step_number>
+	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Select last possible page&nbsp;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Right arrow button is disabled</p>
@@ -2488,14 +1645,14 @@
 <node_order><![CDATA[8]]></node_order>
 <details><![CDATA[]]></details> 
 
-<testcase internalid="330" name="Buy item from community market">
+<testcase internalid="330" name="Buying an item through community market">
 	<node_order><![CDATA[1000]]></node_order>
 	<externalid><![CDATA[48]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[]]></summary>
 	<preconditions><![CDATA[<p>User is already logged in</p>
 
-<p>User have enough wallet balance&nbsp;</p>
+<p>User has enough wallet balance&nbsp;</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
@@ -2508,8 +1665,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -2568,7 +1724,7 @@
 
 </testcase>
 
-<testcase internalid="338" name="Selling an item through market">
+<testcase internalid="338" name="Selling an item through community market">
 	<node_order><![CDATA[1001]]></node_order>
 	<externalid><![CDATA[49]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -2588,8 +1744,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -2662,10 +1817,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login site opens properly</p>
-
-<p>All login fields are displayed properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -2726,10 +1878,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login site opens&nbsp;properly</p>
-
-<p>All login fields are displayed properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -2789,10 +1938,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login site opens properly</p>
-
-<p>All login fields are displayed properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -2835,16 +1981,21 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login site opens properly</p>
-
-<p>All login fields are displayed properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
 	<actions><![CDATA[<p>Insert wrong credentials</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click &#39;Sign in&#39; button&#39;</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Announcement about wrong credentials provided is displayed</p>
 ]]></expectedresults>
@@ -2873,10 +2024,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login site opens properly</p>
-
-<p>All login fields are displayed properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -2953,10 +2101,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login site opens properly</p>
-
-<p>All login fields are displayed properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -3016,10 +2161,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login site opens properly</p>
-
-<p>All login fields are displayed properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -3045,8 +2187,6 @@
 	<actions><![CDATA[<p>Cancel login request by clicking &#39;Cancel&#39; on steam mobile app</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>User has not been logged in</p>
-
-<p>&#39;Loading&#39; animation stopped</p>
 
 <p>Retry button is displayed</p>
 ]]></expectedresults>
@@ -3074,10 +2214,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://store.steampowered.com/login/?redir=&amp;redir_ssl=1&amp;snr=1_4_4__global-header</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login site opens properly</p>
-
-<p>All login fields are displayed properly</p>
-]]></expectedresults>
+	<expectedresults><![CDATA[]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
@@ -3120,7 +2257,7 @@
 	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Click &#39;Login&#39; button in the right top</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Login page is displayed</p>
+	<expectedresults><![CDATA[<p>User is redirected to login page</p>
 
 <p>Correct credentials are already inserted</p>
 ]]></expectedresults>
