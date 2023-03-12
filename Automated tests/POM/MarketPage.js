@@ -25,7 +25,8 @@ class MarketPage {
 	showAdvancedOptionsReset: () => cy.get('a[href="javascript:ResetSearchFilters();"]'),
 	showAdvancedOptionsSearchButtonGreen: () => cy.get('div.btn_medium.btn_green_white_innerfade'),
 	showAdvancedOptionsList: () => cy.get('div#app_option_0_selected'),
-	showAdvancedOptionsListOptions: () => cy.get('div#market_advancedsearch_appselect_options_apps'),
+	showAdvancedOptionsListOptions: () => cy.get('div.popup_item.popup_menu_item.market_advancedsearch_appname'),
+	showAdvancedOptionsFilterList: () => cy.get('div.econ_tag_filter_category'),
 	browseByGame: () => cy.get('span.market_search_sidebar_section_tip_small').eq(1),
 	visibleGames: () => cy.get('a.game_button:visible'),
 	hiddenGames: () => cy.get('a.game_button:hidden'),
@@ -49,7 +50,13 @@ class MarketPage {
 	previousPageButton: () => cy.get('span#searchResults_btn_prev'),
 	nextPageButton: () => cy.get('span#searchResults_btn_next'),
 	pageList: () => cy.get('span.market_paging_pagelink'),
+	getAllFilters: () => cy.get('a.market_searchedForTerm'),
+	clearAll: () => cy.get('a[href="https://steamcommunity.com/market/search?q="]').contains('Clear all'),
 	
+	}
+	
+	clickClearAll() {
+		this.elements.clearAll().click();
 	}
 	
 	clickCommunityMarket() {
@@ -154,6 +161,10 @@ class MarketPage {
 	
 	getPageByNumber(num) {
 		this.elements.pageList().contains(num).click();
+	}
+	
+	clickVisibleGame(num) {
+		this.elements.visibleGames().eq(num).click();
 	}
 	
 	
