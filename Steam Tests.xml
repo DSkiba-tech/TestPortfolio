@@ -201,9 +201,7 @@
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Open&nbsp;https://steamcommunity.com/market/</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&#39;Market&#39; page opens properly</p>
-
-<p>10 most popular items are displayed with details:</p>
+	<expectedresults><![CDATA[<p>10 most popular items are displayed with details:</p>
 
 <p>1. Item photo</p>
 
