@@ -4,30 +4,58 @@ describe('STP-7: Community market displays 10 most popular items', () => {
 	  
 	beforeEach(()=>	{ cy.visit('https://steamcommunity.com/market/') })
 		
-		it('passes', () => {
+		it('Popular Items tab is active', () => {
 			
 			MarketPage.elements.popularItems()
-			.should('have.class','market_tab_well_tab_active') // tab is active
+			.should('have.class','market_tab_well_tab_active')
 			
-			MarketPage.elements.marketListingsRows() // 10 elements exist
+		})
+			
+		it('10 elements exist and visible', () => {
+			
+			MarketPage.elements.marketListingsRows()
 			.should('have.length',10)
+			.and('be.visible')
 			
-			MarketPage.elements.marketListingsImages() // 10 items photos
+		})
+		
+		it('10 items photos exist and visible', () => {
+			
+			MarketPage.elements.marketListingsImages()
 			.should('have.length',10)
+			.and('be.visible')
 			
-			MarketPage.elements.marketListingsItemsNames() // 10 names of items
+		})
+			
+		it('10 names of items exist and visible', () => {
+			
+			MarketPage.elements.marketListingsItemsNames()
 			.should('have.length',10)
+			.and('be.visible')
 			
-			MarketPage.elements.marketListingsGamesNames() // 10 names of games
+		})
+			
+		it('10 names of games exist and visible', () => {	
+		
+			MarketPage.elements.marketListingsGamesNames()
 			.should('have.length',10)
+			.and('be.visible')
 			
-			MarketPage.elements.marketListingsQuantity() // 10 quantities
+		})
+			
+		it('10 quantities exist and visible', () => {	
+			
+			MarketPage.elements.marketListingsQuantity()
 			.should('have.length',10)
+			.and('be.visible')
 			
-			MarketPage.elements.marketListingsPrice() // 10 prices
-			.should('have.length',11) // check for 11, because price header has also same hook
+		})
+		
+		it('10 prices exist and visible', () => {
 			
+			MarketPage.elements.marketListingsPrice()
+			.should('have.length',11) // checking for 11, because header has same class, so includes in
+			.and('be.visible')
 			
-			
-				})
+		})
 })
