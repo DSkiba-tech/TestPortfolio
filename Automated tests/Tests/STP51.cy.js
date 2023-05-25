@@ -72,9 +72,9 @@ describe('STP-50: Change page using left arrow button', () => {
 	
 	})
 	
-	context('Change page to 2', () => {
+	context('Click next page button (right arrow)', () => {
 	
-	MarketPage.getPageByNumber(2)
+	MarketPage.clickNextPageButton()
 	
 	})
 	
@@ -84,24 +84,9 @@ describe('STP-50: Change page using left arrow button', () => {
 	.should('have.text','2 ')
 	
 	})
-	
-	context('Left arrow button is visible and not disabled', () => {
-	
-	MarketPage.elements.previousPageButton()
-	.should('not.have.class','disabled')
-	.and('be.visible')
-	
-	})
-	
-	context('Click previous page button (left arrow)', () => {
-	
-	MarketPage.clickPreviousPageButton()
-	
-	})
-	
-	context('Page 1 is selected', () => {
-	MarketPage.elements.pageListActive()
-	.should('have.text','1 ')
+
+	context('Select last possible page', () => {
+	MarketPage.elements.pageList().last().click()
 	
 	})
 	})

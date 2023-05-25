@@ -31,14 +31,15 @@ class MarketPage {
 	showAdvancedOptionsIncludeDescription: () => cy.get('input#market_advanced_searchdescriptions_checkbox'),
 	showAdvancedOptionsReset: () => cy.get('a[href="javascript:ResetSearchFilters();"]'),
 	showAdvancedOptionsSearchButtonGreen: () => cy.get('div.btn_medium.btn_green_white_innerfade'),
-	showAdvancedOptionsList: () => cy.get('div#app_option_0_selected'),
+	showAdvancedOptionsList: () => cy.get('div#market_advancedsearch_appselect_activeapp'),
 	showAdvancedOptionsListOptions: () => cy.get('div.popup_item.popup_menu_item.market_advancedsearch_appname'),
 	showAdvancedOptionsFilterList: () => cy.get('div.econ_tag_filter_category'),
+	showAdvancedOptionsExpandedList: () => cy.get('div#market_advancedsearch_appselect_options'),
 	browseByGame: () => cy.get('span.market_search_sidebar_section_tip_small').eq(1),
 	visibleGames: () => cy.get('a.game_button:visible'),
 	hiddenGames: () => cy.get('a.game_button:hidden'),
 	showMore: () => cy.get('a.btnv6_grey_black.ico_hover.btn_small_thin'),
-	seeAll: () => cy.get('span#popularItemsMore'),
+	seeAll: () => cy.get('a.btnv6_blue_hoverfade.btn_medium'),
 	moreInfo: () => cy.get('div#moreInfo'),
 	notLoggedInWarning: () => cy.get('div#NotLoggedInWarning'),
 	notLoggedInText: () => cy.get('div.notLoggedInText'),
@@ -56,9 +57,17 @@ class MarketPage {
 	previousPageButton: () => cy.get('span#searchResults_btn_prev'),
 	nextPageButton: () => cy.get('span#searchResults_btn_next'),
 	pageList: () => cy.get('span.market_paging_pagelink'),
+	pageListActive: () => cy.get('span.market_paging_pagelink.active'),
 	getAllFilters: () => cy.get('a.market_searchedForTerm'),
 	clearAll: () => cy.get('a[href="https://steamcommunity.com/market/search?q="]').contains('Clear all'),
 	
+	}
+	clickPreviousPageButton() {
+		this.elements.previousPageButton().click();
+	}
+	
+	clickNextPageButton() {
+		this.elements.nextPageButton().click();
 	}
 	
 	clickClearAll() {
@@ -153,7 +162,7 @@ class MarketPage {
 		check ? this.elements.showAdvancedOptionsIncludeDescription().click() : undefined 
 	}
 	
-	clickShowAdvancedOptionsReset() {
+	clickShowAdvancedOptions() {
 		this.elements.showAdvancedOptionsReset().click();
 	}
 	
@@ -173,6 +182,9 @@ class MarketPage {
 		this.elements.visibleGames().eq(num).click();
 	}
 	
+	clickSeeAll() {
+		this.elements.seeAll().click()
+	}
 	
 
 	
